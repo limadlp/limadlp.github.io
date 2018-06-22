@@ -12,9 +12,9 @@ O modelo do artigo é baseado em agentes, os eventos seguem uma caminhada aleato
 
 Mais detalhes e códigos [aqui](https://github.com/limadlp/LuckvsTalent).
 
-### BlackJack com Neuroevolução
+### Blackjack com Neuroevolução
 
-Criei uma inteligência artificial para jogar BlackJack utilizando redes neurais e algoritmos genéticos.
+Criei uma inteligência artificial para jogar Blackjack utilizando redes neurais e algoritmos genéticos.
 
 Mais detalhes e códigos [aqui](https://limadlp.github.io).
 
