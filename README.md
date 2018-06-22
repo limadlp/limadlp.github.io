@@ -29,7 +29,7 @@ Jupyter notebook: [aqui](https://github.com/limadlp/LuckvsTalent).
 
 Aplicativo para Android que faz a transposição de notas e acordes em N semitons.
 
-![Screenshot](./img/IMG-20180611-WA0005.jpg)
+<a href="url"><img src="./img/IMG-20180611-WA0005.jpg" height="500"></a>
 
 
 Download [aqui](https://transpose-musical-notes.br.aptoide.com/?store_name=danl800).
