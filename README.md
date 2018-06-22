@@ -16,7 +16,7 @@ Mais detalhes e códigos [aqui](https://github.com/limadlp/LuckvsTalent).
 
 Criei uma inteligência artificial para jogar Blackjack utilizando redes neurais e algoritmos genéticos.
 
-Mais detalhes e códigos [aqui](https://limadlp.github.io).
+Mais detalhes e códigos [aqui](https://github.com/limadlp/Blackjack).
 
 
 ## Análise de dados
@@ -25,7 +25,7 @@ Mais detalhes e códigos [aqui](https://limadlp.github.io).
 
 Algumas análises exploratórias num [dataset](https://www.kaggle.com/abcsds/pokemon) de pokemon encontrado no [kaggle](https://www.kaggle.com/).
 
-Jupyter notebook: [aqui](https://github.com/limadlp/Pokemon).
+Jupyter notebook: [aqui](https://github.com/limadlp/Pokemon/Pokemon3.ipynb).
 
 
 ## Aplicativos
