@@ -22,3 +22,14 @@ Algumas análises exploratórias num [dataset](https://www.kaggle.com/abcsds/pok
 
 Jupyter notebook: [aqui](https://github.com/limadlp/LuckvsTalent).
 
+
+## Aplicativos
+
+##Conversor de notas musicais
+
+Aplicativo para Android que faz a transposição de notas e acordes em N semitons.
+
+![Screenshot](./img/IMG-20180611-WA0005.jpg)
+
+
+Download [aqui](https://transpose-musical-notes.br.aptoide.com/?store_name=danl800).
