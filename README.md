@@ -18,7 +18,7 @@ Mais detalhes e códigos [aqui](https://github.com/limadlp/LuckvsTalent).
 
 ### [Pokemon dataset](https://github.com/limadlp/LuckvsTalent)
 
-Algumas análises exploratórias num [dataset](https://www.kaggle.com/abcsds/pokemon)  de pokemon encontrado no [kaggle]https://www.kaggle.com/.
+Algumas análises exploratórias num [dataset](https://www.kaggle.com/abcsds/pokemon) de pokemon encontrado no [kaggle]https://www.kaggle.com/.
 
-Jupyter notebook: [Github](https://github.com/limadlp/LuckvsTalent)
+Jupyter notebook: [aqui](https://github.com/limadlp/LuckvsTalent).
 
