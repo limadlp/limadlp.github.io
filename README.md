@@ -25,7 +25,7 @@ Mais detalhes e códigos [aqui](https://github.com/limadlp/Blackjack).
 
 Algumas análises exploratórias num [dataset](https://www.kaggle.com/abcsds/pokemon) de pokemon encontrado no [kaggle](https://www.kaggle.com/).
 
-Jupyter notebook: [aqui](https://github.com/limadlp/Pokemon/Pokemon3.ipynb).
+Jupyter notebook: [aqui](https://github.com/limadlp/Pokemon/blob/master/Pokemon3.ipynb).
 
 
 ## Aplicativos
