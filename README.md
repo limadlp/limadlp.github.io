@@ -21,7 +21,7 @@ Mais detalhes e códigos [aqui](https://github.com/limadlp/Blackjack).
 
 ## Análise de dados
 
-### [Pokemon dataset](https://github.com/limadlp/LuckvsTalent)
+### [Pokemon dataset](https://github.com/limadlp/Pokemon/blob/master/Pokemon3.ipynb)
 
 Algumas análises exploratórias num [dataset](https://www.kaggle.com/abcsds/pokemon) de pokemon encontrado no [kaggle](https://www.kaggle.com/).
 
