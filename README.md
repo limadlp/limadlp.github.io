@@ -23,7 +23,7 @@ Mais detalhes e códigos <a href="https://github.com/limadlp/Blackjack" target="
 
 ### <a href="https://github.com/limadlp/Pokemon/blob/master/Pokemon3.ipynb" target="blank">Pokemon dataset</a>
 
-Algumas análises exploratórias num <a href"https://www.kaggle.com/abcsds/pokemon" target="blank">dataset</a> de pokemon encontrado no <a href="https://www.kaggle.com/" target="blank">kaggle</a>.
+Algumas análises exploratórias num <a href="https://www.kaggle.com/abcsds/pokemon" target="blank">dataset</a> de pokemon encontrado no <a href="https://www.kaggle.com/" target="blank">kaggle</a>.
 
 Jupyter notebook: <a href="https://github.com/limadlp/Pokemon/blob/master/Pokemon3.ipynb" target="">aqui</a>.
 
