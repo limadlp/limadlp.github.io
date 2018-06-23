@@ -34,7 +34,7 @@ Jupyter notebook: <a href="https://github.com/limadlp/Pokemon/blob/master/Pokemo
 
 Aplicativo para Android que faz a transposição de notas e acordes em N semitons.
 
-<a href="url"><img src="./img/IMG-20180611-WA0005.jpg" height="500"></a>
+<a href="https://transpose-musical-notes.br.aptoide.com/?store_name=danl800"><img src="./img/IMG-20180611-WA0005.jpg" height="500"></a>
 
 
 Download <a href="https://transpose-musical-notes.br.aptoide.com/?store_name=danl800" target="blank">aqui</a>.
