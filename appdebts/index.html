@@ -13,23 +13,30 @@
                 
                 <form id="formulario">
 
+                <div class="container">
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                                <label>Quando:</label>
+                                <input type="date" id="quandoDivida" class="form-control" required>
 
-                <div class="form-group">
-                        <label>Quando:</label>
-                        <input type="date" id="quandoDivida" class="form-control" required>
+                        </div>
 
+                        <div class="form-group col-md-3">
+                            <label>O quê:</label>
+                            <input type="text" id="queDivida" class="form-control" required>
+                        </div>
+
+                        <div class="form-group col-md-3">
+                                <label>Quanto:</label>
+                                <input type="number" step="0.01" id="quantoDivida" class="form-control" required>
+
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary col-md-3">Adicionar</button>
+                        
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>O quê:</label>
-                    <input type="text" id="queDivida" class="form-control" required>
-                </div>
-                <div class="form-group">
-                        <label>Quanto:</label>
-                        <input type="number" step="0.01" id="quantoDivida" class="form-control" required>
-
-                </div>
-
-                <button type="submit" class="btn btn-primary">Adicionar</button>
+                
                 </form>
             </div>
         </div>
@@ -59,3 +66,4 @@
 <script src="js/main.js"></script>
 </body>
 </html>
+
