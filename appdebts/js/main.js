@@ -59,7 +59,7 @@ function mostraPatio(){
         dividasResultado.innerHTML += '<tr><td>' + quando + '</td><td>'
                                                 + que + '</td><td>' 
                                                 + quanto.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) + '</td><td>'
-                                                + '<button class="btn btn-danger" onclick="apagarDivida(\''+ que +'\')">X</button>' 
+                                                + '<button class="btn btn-danger purple" onclick="apagarDivida(\''+ que +'\')">X</button>' 
                                        +'</td></tr>';  
     }
 }
@@ -92,4 +92,16 @@ function CurrencyFormatted(amount) {
 function start(){
     mostraPatio();
     total();
+    buttonadd();
+
 }
+
+function buttonadd(){
+    $(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+      });
+}
+
+
+  
+  

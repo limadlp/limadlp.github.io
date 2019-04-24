@@ -4,69 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dívidas App</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/style.css" />
+    <title>Dívidas App</title>
 </head>
-<body onload="start()" >
-    <div class="container">
-        <div class="header clearfix">
-            <h2>Dívidas <small>  (Ari x Dan)</small></h2>
-            <div class="jumbotron">
-                
-               <form id="formulario"> 
+<body onload="start()">
 
-                <div class="container">
-                    <div class="row">
-                        <div class="form-group col-md-3">
-                                <label>Quando:</label>
-                                <input type="date" id="quandoDivida" class="form-control" required>
-
-                        </div>
-
-                        <div class="form-group col-md-3">
-                            <label>O quê:</label>
-                            <input type="text" id="queDivida" class="form-control" required>
-                        </div>
-
-                        <div class="form-group col-md-3">
-                                <label>Quanto:</label>
-                                <input type="number" step="0.01" id="quantoDivida" class="form-control" required>
-
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary col-md-3">Adicionar</button>
-                        
-                    </div>
-                </div>
-                
-                </form>
-            </div>
+    <!-- Barra de Navegação-->
+    <nav>
+        <div class="nav-wrapper purple">
+            <i class="material-icons left">menu</i>
+            <i class="material-icons right">more_vert</i>
+            <div class="brand-logo center">App Debts</div>
         </div>
-        <h3 >Total devido: </h3 ><h3 id="totaldevido"></h3>
-        <div class="row marketing">
-            <div class="col-lg-12">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th>Quando</th>
-                            <th>O quê</th>
-                            <th>Quanto</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody id="resultados"></tbody>
+    </nav>
+    <!---->    
 
-                </table>
 
-            </div>
-
+    <h1></h1><h1></h1>
+    <h3 >Total devido: </h3 ><h3 id="totaldevido"></h3>
+    <h1></h1><h1></h1>
+    
+    <!--Tabela com o histórico -->    
+    <div class="row marketing">
+        <div class="col-lg-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Quando</th>
+                        <th>O quê</th>
+                        <th>Quanto</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="resultados"></tbody>
+            </table>
         </div>
-
     </div>
-<script src="js/jquery-3.4.0.min.js"></script>   
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+    <!---->
+
+
+    <!--Botao adicionar sobrio-->
+    <!-- <div id = "adicionar">
+        <a href="adicionar.html" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+    </div> -->
+    <!---->
+
+    <!-- Botao adicionar flutuante com sub botoes -->
+    <div class="fixed-action-btn">
+            <a class="btn-floating btn-large purple">
+              <i class="large material-icons">add</i>
+            </a>
+            <ul>
+              <li><a href="adicionar.html" class="btn-floating purple"><i class="material-icons">insert_chart</i></a></li>
+              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul>
+          </div>
+    <!----> 
+
+
+    <!--Scripts-->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>    
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/main.js"></script>
+    <!---->
+
 </body>
 </html>
 
