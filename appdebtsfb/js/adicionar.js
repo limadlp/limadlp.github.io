@@ -15,7 +15,7 @@ function cadastraDivida(e){
     }
 
     firebaseRef.once("value", function(snapshot){
-         if(!snapshot.child("patio").exists()){
+        if(!snapshot.child("patio").exists()){
             console.log("patio nao existe, criando");
             var dividas = [];
             dividas.push(divida);
@@ -33,6 +33,8 @@ function cadastraDivida(e){
         
         //mostraPatio();
         document.getElementById("formulario").reset();
+        var botao = document.getElementById("voltar");
+        botao.click();
         
     });
     
