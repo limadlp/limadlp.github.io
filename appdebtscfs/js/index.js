@@ -4,7 +4,8 @@ function mostraPatio(){
     //var dividas = firebaseRef.child('patio');
     //console.log("hey", dividas);
     
-    firebaseRef.get().then(function (doc) {
+    //firebaseRef.get().then(function (doc) {
+    firebaseRef.onSnapshot(function (doc) {
         if(doc.exists){
         
             //var dividas = JSON.parse(snapshot.val());
