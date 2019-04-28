@@ -40,7 +40,7 @@ function mostraPatio(){
 }
 
 function total(){
-    firebaseRef.get().then(function (snap) {
+    firebaseRef.onSnapshot(function (snap) {
 
         var totalDevido = document.getElementById('totaldevido');
         var devemVoce = document.getElementById('devemvoce');
