@@ -14,7 +14,7 @@
         <nav class="black">
             <div class="nav-wrapper">
                 <a href="index.html" class="brand-logo">Dan Lima</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">Início</a></li>
                     <li><a href="sobre.html">Sobre mim</a></li>
@@ -44,7 +44,9 @@
     <script>
         //menu mobile
         $(document).ready(function(){
-        $('.sidenav').sidenav();
+        $('.sidenav').sidenav({
+            edge:'right'
+        });
         });
     </script>
     <!---->
