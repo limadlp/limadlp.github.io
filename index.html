@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dan Lima Portfolio</title>
+</head>
+<body>
+
+        <nav class="black">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Dan Lima</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                <li class="active"><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            </nav>
+            
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+    <h1><br></h1>
+    <h1><br></h1>
+
+    <div class="row">
+        <div class="col s12 m4 l4">
+            <div class="center promo">
+                <a class="icon-link" href="sobre.html">
+                <i class="medium material-icons">person</i></a>
+                <p class="promo-caption"><a href="sobre.html">Sobre mim</a></p>
+            </div>
+        </div>
+        <div class="col s12 m4 l4">
+            <div class="center promo"> 
+                <a class="icon-link" href="portfolio.html">
+                <i class="medium material-icons">code</i></a>    
+                <p class="promo-caption"><a href="portfolio.html">Portfolio</a></p>
+            </div>
+        </div>
+        <div class="col s12 m4 l4">
+            <div class="center promo">
+                <a class="icon-link" href="contato.html">
+                <i class="medium material-icons">email</i></a>
+                <p class="promo-caption"><a href="contato.html">Contato</a></p>
+            </div>
+        </div>
+    </div>
+            
+
+    <!--Scripts-->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>    
+    <script src="js/main.js"></script>
+    <script>
+        //menu mobile
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+    </script>
+    <!---->
+
+</body>
+</html>
+

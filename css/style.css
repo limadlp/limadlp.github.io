@@ -1,0 +1,29 @@
+#adicionar{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+nav ul li.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.lista {
+    list-style: circle;
+    list-style-type: circle !important
+}
+.defaultlist li {
+    display: list-item; 
+    list-style-type:disc;
+}
+.redlink a{
+    color: red;
+}
+.redlink a:hover{
+    color: rgb(200,0,0);
+}
+.icon-link
+{
+   color: inherit; 
+}
