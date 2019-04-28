@@ -4,7 +4,7 @@ function mostraPatio(){
     firebaseRef.onSnapshot(function (snap) {
             
         var dividasResultado = document.getElementById('resultados');
-        dividasResultado.innerHTML = '';
+            dividasResultado.innerHTML = '';
         snap.forEach(function(doc){
             
             var dividas = doc.data().divida;   
@@ -12,13 +12,29 @@ function mostraPatio(){
             var que = dividas.que;
             var quanto = parseFloat(dividas.quanto);
             var quando = dividas.quando; 
-
-            dividasResultado.innerHTML += '<tr><td>' + quando + '</td><td>'
-                                                    + que + '</td><td>' 
-                                                    + quanto.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) + '</td><td>'
-                                                    + '<button class="btn btn-danger purple lighten-1" onclick="apagarDivida(\''+ doc.id +'\')">X</button>'
-                                                    
-                                        +'</td></tr>';  
+            var tipo = dividas.tipo;
+            if(tipo === "deb"){
+                //dividasResultado.style.color = "red";
+                dividasResultado.innerHTML += '<tr><td>' + quando + '</td><td>'
+                                                        + que + '</td><td>' 
+                                                        + '<span style=\'color:red;\'>'
+                                                         + quanto.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) 
+                                                         + '</span></td><td>'
+                                                        + '<button class="btn btn-danger red lighten-1" onclick="apagarDivida(\''+ doc.id +'\')">X</button>'
+                                                        
+                                            +'</td></tr>';
+                        
+            }
+            else if (tipo == "pag"){
+                //dividasResultado.style.color = "green";
+                dividasResultado.innerHTML += '<tr><td>' + quando + '</td><td>'
+                                                        + que + '</td><td>' 
+                                                        + '<span style=\'color:green;\'>'
+                                                        + quanto.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
+                                                         + '</span></td><td>'
+                                                        + '<button class="btn btn-danger green lighten-1" onclick="apagarDivida(\''+ doc.id +'\')">X</button>'    
+                                            +'</td></tr>'; 
+            }  
         });
     });
 }
@@ -27,12 +43,26 @@ function total(){
     firebaseRef.get().then(function (snap) {
 
         var totalDevido = document.getElementById('totaldevido');
+        var devemVoce = document.getElementById('devemvoce');
         var soma = 0;
         snap.forEach(function(doc){
-            soma += parseFloat(doc.data().divida.quanto);
+            if (doc.data().divida.tipo === "deb"){ 
+                soma += parseFloat(doc.data().divida.quanto);
+            }
+            else if (doc.data().divida.tipo == "pag"){
+                soma -= parseFloat(doc.data().divida.quanto);
+            }
         });
         
-        totalDevido.innerHTML =  soma.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});//CurrencyFormatted(soma);
+        if (soma >= 0){
+            totalDevido.innerHTML =   "Total devido: "+ '<span style=\'color:red;\'>' + soma.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) + '</span>';
+            
+        }
+        else if (soma < 0){
+            soma = -soma;
+            totalDevido.innerHTML =  "Devem a você: " + '<span style=\'color:green;\'>' + soma.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) + '</span>';
+        }
+
     });
 }
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dívidas App</title>
+</head>
+<body>
+
+    <!--Barra de Navegação-->
+    <nav>
+        <div class="nav-wrapper purple">
+                <div class="brand-logo center">Novo pagamento</div>
+                <a id ="voltar" href="index.html"><i class="material-icons">arrow_back</i></a>
+        </div>
+    </nav>
+    <!---->
+
+
+    <h1></h1>
+
+    <!-- Input da dívida -->
+    <div class="container">
+        <div class="header clearfix"> 
+            <!--<div class="jumbotron"></div>-->
+                <form id="formpag"> 
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col s12 l3">
+                                    <label>Quando:</label>
+                                    <input type="date" id="quandoDivida" class="form-control" required>
+                            </div>
+
+                            <div class="form-group s12 col l3">
+                                <label>O quê:</label>
+                                <input type="text" id="queDivida" class="form-control" required>
+                            </div>
+
+                            <div class="form-group s12 col l3">
+                                    <label>Quanto:</label>
+                                    <input type="number" step="0.01" id="quantoDivida" class="form-control" required>
+                            </div>
+                            
+                            <button type="submit" class="waves-effect waves-light btn btn-large purple col s12 l3">Adicionar</button>
+                            
+                        </div>
+                    </div>
+                </form>
+            <!--</div>-->
+        </div>
+    </div>
+    <!---->
+
+           
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-firestore.js"></script>
+    <script src="js/firebase.js"></script> 
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/jquery-3.4.0.min.js"></script>   
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/addpag.js"></script>
+</body>
+</html>
+
