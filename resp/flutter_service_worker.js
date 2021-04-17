@@ -3,17 +3,22 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+  "assets/AssetManifest.json": "089c857037a84657535148dced11de04",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "a8d1d130b9909728d724354dc06becc1",
+"assets/img/1%25207G3nGZ0IUBMiOMfMsz-Nuw.jpeg": "38d107f9d33433a28077c57ed0ac427e",
+"assets/img/872198c2f62aa608f6d657b61c5e65b6.jpg": "f468ad15771296c1e331b13dc26c7407",
+"assets/img/any-ipsum-banner-772x250.png": "7b603781a920cb5831ed7b19e901b843",
+"assets/img/bannerteste.png": "00a44d19331649675711d6cd28394c37",
+"assets/img/Design-de-Interiores-1200x675.png": "1f6f357ff2cbc298b8ee903529ea59a6",
+"assets/NOTICES": "c8ea060a4fc1e442636124ef75e6cbcf",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "6d82fb5ffb3112fcf48f81c7c60645b0",
-"/": "6d82fb5ffb3112fcf48f81c7c60645b0",
-"main.dart.js": "597079ae9ad1f1b65f04f81f50071414",
+"index.html": "d1f48d11cfceb0cdc70c0da771764c1c",
+"/": "d1f48d11cfceb0cdc70c0da771764c1c",
+"main.dart.js": "2f3dd6d1384d5e1b2ffb7ffc16d0409a",
 "manifest.json": "9f38e1676b59ffbdc359144be9958e1a",
 "version.json": "efc06dc43adce8f5a3e69ea4d2ca1dec"
 };
